@@ -1,0 +1,748 @@
+/***-----------------------------------------------------------------------------------
+Template Name: Rahamat ullah
+
+
+	1. Typography
+	2. Header Area
+		2.1 Menu Area
+		2.2 Welcome Text 
+		2.3 Social Media 
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+-----------------------------------------------------------------------------------***/
+
+/****------------------1. Typography----------------------------****/
+
+
+body{
+	margin:0px;
+	padding:0px;
+}
+@font-face{
+	
+	font-family:"gothamroundedbook";
+	src:url('fonts/gothamroundedbook.woff') format('woff');
+	
+}
+@font-face{
+	
+	font-family:"gothamroundedbook";
+	src:url('fonts/gothamroundedbook.woff') format('woff');
+	
+}
+
+body, p {
+	font-family: "gothamroundedbook";
+	font-size:12px;
+	line-height:2.3em;
+	
+	
+	}
+	
+	
+ h2{
+	font-size:35px;
+	text-transform:uppercase;
+	letter-spacing:5px;
+	font-weight:normal;
+	
+}
+h5{
+	font-size: 15px;
+	font-weight:normal;
+	font-family:"gothamroundedbook";
+	letter-spacing:2px;
+	
+	
+}
+
+h3{
+	color:#16A086;
+	font-family:"gothamRoundedBook";
+	font-size:14px;
+	text-transform:uppercase;
+	line-height:13.2px;
+	letter-spacing:1px;
+	
+	
+}
+
+p{
+	color: #AEAFB1;
+	letter-spacing: 2px;
+	font-size: 11px;
+	line-height: 2em;
+	margin:0px;
+	overflow:hidden;
+}
+
+strong {
+	color: #666666;
+}
+
+	
+	
+	
+	
+
+	/*****2.header-area************************/
+	
+	
+.header-area{
+	
+	background-image:url('image/header-bg.jpg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-position:0 0;
+	color:#FFFFFF;
+	text-align:center;
+	overflow:hidden;
+	padding:25px 0;
+	
+}
+
+
+
+.menu-area ul{
+	
+	text-align:center;
+	list-style:none;
+	margin:0;
+	padding:0;
+	
+}
+.menu-area ul li{
+	
+	display:inline;
+	margin:0 24px;
+}
+.menu-area ul li a{
+	
+	color:#FFFFFF;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size: 15px;
+	letter-spacing:4px;
+	border-bottom: 1px solid transparent;
+	display: inline-block; 
+	padding-bottom: 12px;
+	transition:.5s;
+}
+.main-menu ul.logo{
+	margin:0 40px;
+	width:40px;
+	height:auto;
+}
+.menu-area ul .logo img {
+	margin: 0 40px;
+	width: 40px;
+	height: auto;
+}
+.menu-area ul .logo a:hover {
+	border: none;
+}
+.menu-area ul .logo a{
+	border: none;
+}
+ 
+.menu-area ul li a:hover {
+	border-bottom: 1px solid #FFFFFF;
+}
+
+
+
+/**********2.2 welcome text ***************/
+
+.welcome-area{
+	margin-top:185px;
+	overflow:hidden;
+	
+}
+
+.btn{
+	text-decoration:none;
+	color:#FFFFFF;
+	background:#16A086;
+	text-transform:uppercase;
+	padding:9px 25px;
+	border-radius:5px;
+	display:inline-block;
+	transition: .4s;
+	border: 1px solid transparent;
+	
+	
+}
+
+
+.btn:hover{
+	background: #FFFFFF;
+	color: #16A086;
+	border: 1px solid #16A086;	
+}
+.social-media{
+	
+	overflow:hidden;
+	margin-top:130px;
+}
+.social-media ul{
+	
+	list-style:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+	}
+.social-media ul li{
+		display:inline;
+		margin:0 10px;
+		
+		
+	}
+.social-media ul li a{
+		color:#FFFFFF;
+		text-decoration:none;
+		font-size:20px;
+	 	
+	}
+	
+	
+/**************getting started**************/
+	
+.getting-started{
+		overflow:hidden;
+		background-color:#F5F6F8;
+		padding:0px; 
+		
+		
+		
+	}
+.getting-started .text-area{
+		padding:25px;
+		padding-bottom: 0px;
+		background-image: url('image/hand.png');
+		background-repeat: no-repeat; 
+		background-size: 50% auto;
+		background-position: top right;
+		
+		
+		
+	}
+
+.getting-started .start-text {
+	width: 50%;
+}
+
+
+.col-1-2{
+	width:50%;
+	float:left;
+	overflow:hidden;
+	
+}
+.text-area p {
+	margin-bottom: 30px;
+	font-family:"gothamroundedbook";
+	letter-spacing:4px;
+}
+
+
+/*******************design arrea*************************/
+
+
+.design-area{
+	overflow:hidden;
+	margin-top:85px;
+	
+}
+.design{
+	overflow:hidden;
+	background-image:url('image/mobile.png');
+	background-repeat:no-repeat;
+	background-size:25%;
+	background-position:top left;
+	margin-left:86px;
+	
+	
+	
+	
+}
+.design-text{
+	width:45%;
+	float:right;
+	overflow:hidden;
+	overflow:hidden; 
+	
+	
+}
+.slide{
+	margin:60px 0;
+	
+	
+}
+.arrow{
+	
+	color:#1D1D29;
+	font-size:22px;
+	margin-right:12px;
+	
+}
+/********************community area*********************/
+
+.designe{
+	overflow:hidden;
+	background-color:#F5F6F8;
+	display:inline-block;
+	padding:0px;
+	padding-top:0px;
+	
+	
+}
+.designe ul{
+	
+	padding-top:0px;
+}
+.designe ul li{
+	
+	text-align:center;
+	float:left;
+	display:inline-block;
+	
+	padding:3px;
+	padding-top:0px;
+	
+}
+.community{
+	background-color:#F5F6F8;
+	width:100%;
+	display:inline-block;
+	overflow:hidden;
+	padding-bottom:10px;
+	
+	
+}
+.commun{
+	
+	margin:40px;
+	display:inline-block;
+	overflow:hidden;
+	
+}
+.arrowc{
+	
+	color:#00000;
+	font-size:30px;
+	margin-right:12px;
+	float:right;
+	padding-right:3px;
+	
+}
+.designe ul.logo1{
+	color:#16A085;
+	margin:0 40px;
+	width:40px;
+	height:auto;
+}
+
+.designe ul li a:hover {
+	border-bottom: 1px solid #16A085;
+}
+.slidec{
+	padding:0px;
+	
+	
+	
+}
+.logo1{
+	
+	width:300px;
+	height:230px;
+	font-family:"gothamroundedbook";
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+}
+.logo1 h3{
+	
+	color:#404143;
+	font-family:"gothamroundedbook";
+}
+.col-2{
+	
+	width:300px;
+	height:230px;
+	overflow:hidden;
+	margin:0px;
+	padding:0px 2; 
+}
+.col-3{
+	
+	width:300px;
+	height:230px;
+	overflow:hidden;
+	margin:0px;
+	padding:0px 2;
+}
+
+/**********subscribe-area started**************/
+
+.subscribe-area {
+	background: url('image/subscribe-bg.jpg') no-repeat 0 0 / 100% 100%;
+	padding: 200px 0;
+	margin:0px;
+}
+ 
+.subscribe-area form {
+	width: 240px;
+	margin: 0 auto;
+}
+.subscribe-area form input[type="email"] {
+	background: #FFFFFF;
+	padding: 15px 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none; 
+	border-radius: 3px 0 0 3px;
+	margin-right: 0;
+}
+.subscribe-area form button {
+	background: #11A689;
+	color: #FFFFFF;
+	padding: 15px 25px;
+	border: none; 
+	border-radius: 0 3px 3px 0;
+	margin-left: -15px;
+	overflow:hidden;
+}
+.subscri h3{
+	color:white;
+	text-align:center;
+	font-family:"gothamroundedbook";
+	font-size: 20px;
+	letter-spacing:4px;
+	text-transform:uppercase;
+	overflow:hidden;
+	
+}
+
+.row{
+	overflow:hidden;
+}
+.start-teat{
+	background-color:#F5F6F8;
+	overflow:hidden;
+	text-align:center;
+	padding-bottom:25px;
+}
+.download{
+	font-size:20px;
+	font-family:"gothamroundedbook";
+	letter-spacing:4px;
+	text-transform:uppercase;
+	color:black;
+	padding-top:63px;
+	padding-bottom:3px;
+	overflow:hidden;
+	margin:0px;
+	
+}
+.paragrap{
+	overflow:hidden;
+	padding-bottom:20px;
+}
+.download-area{
+	overflow:hidden;
+}
+
+.apple-area button {
+	background: #11A689;
+	color: #FFFFFF;
+	padding: 20px 28px;
+	border: none; 
+	border-radius: 0px 3px 3px 0;
+	margin-left: -8px;
+}
+
+.apple-area .btn{
+	text-decoration:none;
+	color:#FFFFFF;
+	background:#16A086;
+	text-transform:uppercase;
+	letter-spacing:5px;
+	font-family:"gothamroundedbook";
+	padding:12px 50px;
+	border-radius:5px;
+	display:inline-block;
+	transition: .4s;
+	border: 1px solid transparent;
+	
+	
+}
+	
+	
+.footer-area{
+	overflow:hidden;
+	
+}
+.footer-area .text-areaf {
+	float: left;
+	
+}
+.container .image-footer a{
+	
+	float:right;
+	overflow:hidden;
+}
+
+
+
+
+/*---------------------------------------------responsive----------------------------------*/
+
+
+@media all and (max-width: 768px) {
+	.header-area{
+		
+		float:none;
+		width:100%;
+	}
+	
+	.header-area .menu-area{
+		float:none;
+		width:90%;
+	}
+	
+	
+	.getting-started{
+		float:none;
+		width:100%;
+		
+	}
+	.design-area{
+		
+		width:100%;
+	}
+	.community-area .designe{
+		
+		
+		width:100%;
+		
+	}
+	.community-area .designe ul{
+		
+		display:inline;
+		width:100%;
+		float:none;
+	}
+	.subscribe-area{
+		float:none;
+		width:100%;
+	}
+	
+	
+	.subscri form{
+		font-size:15px;
+		text-align:center;
+		padding-right:350px;
+		float:none;
+		width:70%;
+		
+	}
+	.subscri h3{
+		font-size:15px;
+		text-align:center;
+		padding-right:350px;
+		float:none;
+		width:70%;
+	}
+	
+	
+	.download-area{
+		
+		float:none;
+		width:100%;
+	}
+	.download-area {
+		
+		float:none;
+		width:100%;
+		
+	}
+	
+	.footer-area{
+		width:100%;
+		float:none;
+	}
+	
+}
+@media all and (max-width: 600px){
+	
+	.header-area{
+		
+		float:none;
+		width:100%;
+	}
+	
+	.header-area .menu-area{
+		float:none;
+		width:90%;
+	}
+	
+	.getting-started{
+		float:none;
+		width:100%;
+		
+	}
+	.design-area{
+		
+		width:100%;
+	}
+	.community-area .designe{
+		
+		
+		width:100%;
+		
+	}
+	.community-area .designe ul{
+		
+		display:inline;
+		width:90%;
+		float:none;
+	}
+	.subscribe-area{
+		float:none;
+		width:90%;
+		padding:3px;
+	}
+	
+	
+	.subscri form{
+		font-size:15px;
+		text-align:center;
+		padding-right:350px;
+		float:none;
+		width:70%;
+		
+	}
+	.subscri h3{
+		font-size:15px;
+		text-align:center;
+		padding-right:350px;
+		float:none;
+		width:70%;
+	}
+	
+	
+	.download-area{
+		
+		float:none;
+		width:100%;
+	}
+	.download-area .apple-area {
+	
+		float:none;
+		width:90%;
+		
+	}
+	
+	.footer-area{
+		width:90%;
+		float:;
+	}
+	
+
+	
+	
+	
+	
+	
+}
+
+@media all and (max-width: 400px) {
+	
+		
+		float:none;
+		width:100%;
+	}
+	
+	.header-area .menu-area{
+		float:none;
+		width:90%;
+	}
+	
+	
+	.getting-started{
+		float:none;
+		width:100%;
+		
+	}
+	.design-area{
+		
+		width:100%;
+	}
+	.community-area .designe{
+		
+		
+		width:100%;
+		
+	}
+	.community-area .designe ul{
+		
+		display:inline;
+		width:100%;
+		float:none;
+	}
+	.subscribe-area{
+		float:none;
+		width:100%;
+	}
+	
+	
+	.subscri form{
+		font-size:15px;
+		text-align:center;
+		padding-right:350px;
+		float:none;
+		width:70%;
+		
+	}
+	.subscri h3{
+		font-size:15px;
+		text-align:center;
+		padding-right:350px;
+		float:none;
+		width:70%;
+	}
+	
+	
+	.download-area{
+		
+		float:none;
+		width:100%;
+	}
+	.download-area {
+		
+		float:none;
+		width:100%;
+		
+	}
+	
+	.footer-area{
+		width:100%;
+		float:none;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+	
